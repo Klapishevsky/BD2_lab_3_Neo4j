@@ -7,7 +7,7 @@
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../build" />
@@ -16,7 +16,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" scope="PROVIDED">
-      <library name="Gradle: neo4j-1.4.4:4">
+      <library name="Gradle: neo4j-3.3.1:1">
         <CLASSES />
         <JAVADOC />
         <SOURCES />
@@ -30,14 +30,14 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="RUNTIME">
-      <library name="Gradle: neo4j-1.4.4:4">
+      <library name="Gradle: neo4j-3.3.1:1">
         <CLASSES />
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: neo4j-1.4.4:4">
+      <library name="Gradle: neo4j-3.3.1:1">
         <CLASSES />
         <JAVADOC />
         <SOURCES />
@@ -50,7 +50,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="org.neo4j:neo4j:3.3.1" level="application" />
     <orderEntry type="library" name="org.projectlombok:lombok:1.16.18" level="application" />
+    <orderEntry type="library" name="org.neo4j:neo4j:3.3.1" level="application" />
   </component>
 </module>
